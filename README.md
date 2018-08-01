@@ -23,7 +23,7 @@ Also intall:
     - sudo apt-get install tesseract-ocr
     && sudo apt-get install libmagickwand-dev
 
-
+<p></p>
 <p>Windows:</p>
     <p>- https://stackoverflow.com/questions/13984357/pythonmagick-cant-find-my-pdf-files</p>
     <p>- https://legacy.imagemagick.org/script/binary-releases.php#windows</p>
@@ -33,9 +33,9 @@ Also intall:
 
 # NOTES:
 1 - pytesseract for Windows isn't working very well. I had to call tesseract directly from the terminal.
-2 - This code is not optimal for any kind of PDFs. Some more image thresholds adjustments might be necessary to tune the
+<p>2 - This code is not optimal for any kind of PDFs. Some more image thresholds adjustments might be necessary to tune the
 quality of images at the "remove_noise" method. Further exaplanation of what's happening in this method can
-be found at https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html#adaptive-thresholding
+be found at https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html#adaptive-thresholding</p>
 
 Note that since tesseract doesn't accept binary tresholds, the best method is probably "adaptive Gaussian", though more tests
 are needed.
