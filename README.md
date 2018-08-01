@@ -20,16 +20,16 @@ https://sourceforge.net/projects/opencvlibrary/files/
 
 Also intall:
 <p>Linux:</p>
-    sudo apt-get install tesseract-ocr
+    - sudo apt-get install tesseract-ocr
     && sudo apt-get install libmagickwand-dev
 
 
-Windows:
-    <p>https://stackoverflow.com/questions/13984357/pythonmagick-cant-find-my-pdf-files</p>
-    <p>https://legacy.imagemagick.org/script/binary-releases.php#windows</p>
-    <p>http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html</p>
-    <p>https://cmake.org/download/</p>
-    <p>https://github.com/smeucci/LineSegm/blob/master/create_groundtruth.py</p>
+<p>Windows:</p>
+    <p>- https://stackoverflow.com/questions/13984357/pythonmagick-cant-find-my-pdf-files</p>
+    <p>- https://legacy.imagemagick.org/script/binary-releases.php#windows</p>
+    <p>- http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html</p>
+    <p>- https://cmake.org/download/</p>
+    <p>- https://github.com/smeucci/LineSegm/blob/master/create_groundtruth.py</p>
 
 # NOTES:
 1 - pytesseract for Windows isn't working very well. I had to call tesseract directly from the terminal.
